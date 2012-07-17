@@ -1,0 +1,23 @@
+---------------------------------------------------------------
+biblatex-biomedcentral --- A biblatex implementation of the
+  BioMed Central bibliography style
+Maintained by Egon Willighagen
+E-mail: egon.willighagen@gmail.com
+Released under the LaTeX Project Public License v1.3c or later
+See http://www.latex-project.org/lppl.txt
+---------------------------------------------------------------
+
+The biblatex-biomedcentral package provides an implementation of the 
+bibliography style of the BioMed Central journals for biblatex,
+and is based on the biblatex-nature work by Joseph Wright
+<joseph.wright@morningstar2.co.uk>. This
+implementation follows standard biblatex conventions, and can
+be used simply by loading biblatex with the appropriate option
+
+  \usepackage[style=biomedcentral]{biblatex}
+   
+A demonstration database is provided to show how to format
+input for the style. 
+
+The biblatex-biomedcentral style requires biblatex 1.2 or later, and works
+with both BibTeX and Biber as the database back-end.
